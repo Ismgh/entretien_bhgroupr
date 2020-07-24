@@ -1,0 +1,122 @@
+/*navbar section*/
+body{
+    margin: 0px;
+}
+.navbar-container{
+    display: flex;
+    color: #a1a3a6;
+    flex-wrap: wrap;
+}
+.navbar-container > div {
+    margin: 1px 90px ;   
+}
+.navbar-paragraphe{
+    text-align: right;
+    text-transform: uppercase;
+    font-family:sans-serif;
+    color: #5c5d5e;
+}
+#logo{
+    margin-left: -40px;
+}
+.police-style1{
+    letter-spacing: 6px;
+    font-size: 12px;
+}
+.police-style2{
+    font-size: 30px;
+}
+.police-style3{
+    font-size: 12px;
+    font-weight: bold;
+}
+.active{
+    color: black;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar-container > li {
+  float: left;
+    
+  border-bottom: 1px #a1a3a6 solid;
+}
+
+.navbar-container > li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  cursor:grab;
+}
+/*ad*/
+.ads{
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-size: 17px;
+    font-family:sans-serif;
+    font-style: italic;
+    text-shadow:  0.2px 0.5px 3px black;
+    color:white;
+    background-color: deepskyblue;
+    border-radius: 2px;
+    display: inline-block;
+    margin-left: 800px;
+    padding: 5px;
+}
+/*search*/
+.search-bg{
+    height: 450px;
+    background:  lightblue url("design/photo-bandeau.jpg") no-repeat fixed;
+    box-shadow: 0 6px 10px -2px gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-box{
+    background-color: rgba(5, 0, 0, 0.64);
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+input, select {
+  padding: 12px 20px;
+  margin: 8px 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color: orange;
+  color: white;
+  padding: 14px 20px;
+  margin: 20px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+/*content*/
+/*left-content*/
+#left-content{
+    display: flex;
+    margin: 20px;
+}
+ol{
+    list-style-image:url('design/area.png');
+}
+/*right-content*/
+#right-content{
+    margin: 15px;
+}
